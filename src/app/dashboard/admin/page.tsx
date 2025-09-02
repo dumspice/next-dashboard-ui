@@ -32,7 +32,7 @@ export default function AdminPage() {
         </div>
 
         {/* Bottom charts */}
-        <div className="w-full h-[500px]">
+        <div className="w-full h-[525px]">
           <FinanceChart />
         </div>
       </div>
