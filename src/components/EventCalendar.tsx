@@ -34,7 +34,7 @@ export const eventsData = [
 const EventCalendar = () => {
   const [value, onChange] = useState<Value>(new Date());
   return (
-    <div className="bg-white rounded-2xl p-4">
+    <div className="bg-white rounded-md p-4">
       <Calendar onChange={onChange} value={value} />
       <div className="flex flex-col gap-4">
         {/* Title */}

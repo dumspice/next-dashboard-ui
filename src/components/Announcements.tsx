@@ -2,7 +2,7 @@
 
 const Announcements = () => {
   return (
-    <div className="bg-white p-4 rounded-2xl">
+    <div className="bg-white p-4 rounded-md">
       {/* Title */}
       <div className="flex justify-between items-center my-4">
         <h1 className="text-xl font-semibold">Announcements</h1>
