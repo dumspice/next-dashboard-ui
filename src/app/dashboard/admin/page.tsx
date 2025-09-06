@@ -12,10 +12,10 @@ export default function AdminPage() {
       {/* Left */}
       <div className="w-full lg:w-2/3 flex flex-col gap-8">
         <div className="flex gap-4 justify-between flex-wrap">
-          <UserCard type="student" />
+          <UserCard type="admin" />
           <UserCard type="teacher" />
+          <UserCard type="student" />
           <UserCard type="parent" />
-          <UserCard type="staff" />
         </div>
 
         {/* Middle charts */}
